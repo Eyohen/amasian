@@ -1,6 +1,6 @@
 import React from 'react'
 import hero from '../assets/home2.jpg'
-import interior from '../assets/interior.jpg'
+import interior from '../assets/Interior.jpg'
 import homeautomation from '../assets/homeautomation.jpg'
 import lamp from '../assets/tablelamp2.jpg'
 import contact from '../assets/contact2.jpg'

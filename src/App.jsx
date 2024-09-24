@@ -21,6 +21,12 @@ import CreateCategory from './pages/CreateCategory'
 import Register from './pages/Register'
 import CreateProduct from './pages/CreateProduct'
 import SpaceManagement from './pages/SpaceManagement'
+import CreatePost from './pages/CreatePost'
+import BlogTable from './pages/BlogTable'
+import BlogDetails from './pages/BlogDetails'
+import EditBlog from './pages/EditPost'
+import BarcodeDisplay from './pages/BarcodeDisplay'
+import AuthMessage from './pages/AuthMessage'
 
 const App = () => {
   return (
@@ -46,6 +52,14 @@ const App = () => {
 <Route exact path="/editcategory/:id" element={<EditCategory />}/>
 <Route exact path="/createcategory" element={<CreateCategory />}/>
 <Route exact path="/createproduct" element={<CreateProduct />}/>
+<Route exact path="/createpost" element={<CreatePost />}/>
+<Route exact path="/blogtable" element={<BlogTable />}/>
+<Route exact path="/blogdetails/:id" element={<BlogDetails />}/>
+<Route exact path="/editblog/:id" element={<EditBlog />}/>
+<Route exact path="/barcode" element={<BarcodeDisplay />}/>
+<Route exact path="/auth" element={<AuthMessage />}/>
+
+
 </Routes>
   )
 }

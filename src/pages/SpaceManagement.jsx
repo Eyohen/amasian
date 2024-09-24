@@ -30,15 +30,17 @@ const SpaceManagement = () => {
   return (
     <>
 
-    <div className='bg-black'>
+    <div className="bg-black h-[100vh] font-['Libre_Baskerville',serif]">
         
 
 
         
-    <p onClick={() => {navigate(-1)}} className='flex items-center gap-x-2 text-gray-500 px-16 pt-9 cursor-pointer'>Home <MdOutlineKeyboardArrowRight />Blog Posts</p>
+    <p onClick={() => {navigate(-1)}} className='flex items-center gap-x-2 text-white px-16 pt-9 cursor-pointer'>Home <MdOutlineKeyboardArrowRight />Blog Posts</p>
+
+    <p className='text-center text-white text-5xl mt-12'>Space Management Tips</p>
 
 
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center mt-4">
 <div className='grid md:grid-cols-3 gap-x-12 gap-y-9 mt-12'>
 {posts.map(p => (
 

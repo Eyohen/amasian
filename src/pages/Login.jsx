@@ -36,7 +36,7 @@ const AdminLogin = () => {
   };
 
   return (
-    <div className='bg-black py-8 md:py-[320px] flex justify-center items-center min-h-screen'>
+    <div className="bg-black py-8 md:py-[320px] flex justify-center items-center min-h-screen font-['Libre_Baskerville',serif]">
       <div className='w-full max-w-[450px] md:max-w-[600px] bg-white px-6 md:px-16 py-8 rounded-2xl shadow-xl'>
         <form onSubmit={handleSubmit}>
           <h1 className='font-bold text-2xl pt-3'>Sign In</h1>

@@ -186,7 +186,7 @@ const About = () => {
     };
 
     return (
-        <div className='min-h-screen bg-black'>
+        <div className="min-h-screen bg-black font-['Libre_Baskerville',serif]">
             <div style={divStyle} className="relative">
                 <div className='hidden md:block'>
                     <div className='flex justify-center gap-x-4 sm:gap-x-9 bg-gray-400 py-3 w-full sm:w-[500px] mx-auto mt-[-20px] rounded-full opacity-90 absolute z-50 left-1/2 transform -translate-x-1/2 top-[50px]'>

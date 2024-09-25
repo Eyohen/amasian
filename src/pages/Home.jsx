@@ -217,22 +217,22 @@ const Home = () => {
     }
 
     return (
-        <div className=''>
+        <div className="font-['Libre_Baskerville',serif]">
             <div style={divStyle} className="relative">
                 <div className='hidden md:block'>
-                    <div className='flex flex-wrap justify-center gap-4 bg-gray-400 py-3 w-full md:w-[560px] mx-auto rounded-full opacity-90'>
+                    <div className='flex flex-wrap justify-center gap-4 bg-gray-400 py-3 w-full md:w-[600px] mx-auto rounded-full opacity-90'>
                         <Link to={'/'}><p className='text-white text-lg bg-gray-800 px-3 rounded-3xl cursor-pointer'>Home</p></Link>
-                        <Link to={'/about'}><p className='text-white text-lg cursor-pointer'>about</p></Link>
+                        <Link to={'/about'}><p className='text-white text-lg cursor-pointer'>About</p></Link>
                         <div className='relative'>
-                            <p onClick={handleOpen} className='text-white text-lg cursor-pointer'>services</p>
+                            <p onClick={handleOpen} className='text-white text-lg cursor-pointer'>Services</p>
                             {open && <div className='bg-black w-[200px] absolute mt-4 z-50 rounded left-1/2 transform -translate-x-1/2'>
                                 <Link to={'/interiordecor'}><p className='py-3 px-2 text-white hover:bg-white hover:text-black cursor-pointer'>Interior Decoration</p></Link>
                                 <Link to={'/homeautomation'}><p className='py-3 px-2 text-white hover:bg-white hover:text-black cursor-pointer'>Home Automation</p></Link>
 
                             </div>}
                         </div>
-                        <Link to={'/lamps'}><p className='text-white text-lg cursor-pointer'>lamps</p></Link>
-                        <Link to={'/spacemanagement'}><p className='text-white text-lg cursor-pointer'>space management</p></Link>
+                        <Link to={'/lamps'}><p className='text-white text-lg cursor-pointer'>Lamps</p></Link>
+                        <Link to={'/spacemanagement'}><p className='text-white text-lg cursor-pointer'>Space management</p></Link>
                         <Link to={'/login'}><p className='text-white text-lg border border-gray-800 px-3 rounded-3xl cursor-pointer'>sign in</p></Link>
                     </div>
                 </div>
@@ -277,7 +277,7 @@ const Home = () => {
                 <div>
                     <p className='text-lg max-w-[500px] mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-                    <button className='bg-black text-white font-semibold px-5 py-1 rounded-md'>See More</button>
+                    <Link to={'/about'}><button className='bg-black text-white font-semibold px-5 py-1 rounded-md'>See More</button></Link>
                 </div>
             </div>
 

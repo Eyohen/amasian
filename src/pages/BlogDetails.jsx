@@ -38,7 +38,7 @@ const BlogDetails = () => {
     }, [postId]);
 
     return (
-        <div className="bg-black min-h-screen text-white">
+        <div className="bg-black min-h-screen text-white font-['Libre_Baskerville',serif]">
             <div className="fixed inset-0 bg-black z-[-1]"></div>
             <div className="max-w-4xl mx-auto px-4 py-12">
                 <p onClick={() => navigate(-1)} className='flex items-center gap-x-2 cursor-pointer mb-8'>

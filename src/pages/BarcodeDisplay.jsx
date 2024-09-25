@@ -22,7 +22,7 @@ const BarcodeDisplay = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 font-['Libre_Baskerville',serif]">
       <h1 className="text-2xl font-bold mb-4">Scan this barcode</h1>
       {barcodeUrl && <img src={barcodeUrl} alt="Barcode" className="w-64 h-64" />}
     </div>
